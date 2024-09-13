@@ -14,3 +14,42 @@ Text generation is the process of automatically creating meaningful text based o
 
 The repository also includes the script to download data from Hugging Face and save it locally in CSV format for further processing in the Markov Chain model.
 
+
+## Installation
+
+To run this project locally, follow the steps below:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/PRODIGY_GA_03.git
+    cd PRODIGY_GA_03
+    ```
+
+2. **Install dependencies**:
+    Ensure you have Python installed (preferably Python 3.x). Install the required packages using pip:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Download the dataset**:
+    Run the provided `get_data.py` script to download the dataset:
+    ```bash
+    python data/get_data.py
+    ```
+
+## Usage
+
+To explore and run the Markov Chain model for text generation:
+
+1. Open the `Markov_chain.ipynb` notebook using Jupyter Notebook or Jupyter Lab.
+2. Follow the steps in the notebook to train the model and generate text sequences.
+   
+   The notebook demonstrates how to build a simple Markov Chain model and generate coherent text based on the input dataset.
+
+## Data
+
+The dataset used in this project is downloaded from Hugging Face using the `get_data.py` script. The dataset is not included in the repository due to size limitations but will be saved locally in CSV format after running the script.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

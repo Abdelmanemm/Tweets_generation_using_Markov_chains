@@ -16,4 +16,4 @@ Text generation is the process of automatically creating meaningful text based o
 The repository also includes the script to download data from Hugging Face and save it locally in CSV format for further processing in the Markov Chain model.
 
 ## Directory Structure
-
+PRODIGY_GA_03/ │ ├── data/ │ └── get_data.py # Script to download data from Hugging Face and save it locally ├── Markov_chain.ipynb # Jupyter notebook implementing the Markov Chain model ├── README.md # Project documentation └── LICENSE # License information

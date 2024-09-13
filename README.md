@@ -24,14 +24,7 @@ To run this project locally, follow the steps below:
     git clone https://github.com/your-username/PRODIGY_GA_03.git
     cd PRODIGY_GA_03
     ```
-
-2. **Install dependencies**:
-    Ensure you have Python installed (preferably Python 3.x). Install the required packages using pip:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Download the dataset**:
+2. **Download the dataset**:
     Run the provided `get_data.py` script to download the dataset:
     ```bash
     python data/get_data.py

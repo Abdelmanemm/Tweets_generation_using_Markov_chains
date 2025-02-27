@@ -1,4 +1,4 @@
-# PRODIGY_GA_03
+# Tweets_generation_using_Markov_chains
 This repository contains the solution for a text generation task using **Markov Chains**. The goal of this project is to generate coherent text sequences based on patterns learned from a dataset, using the Markov Chain model. 
 
 ## Table of Contents
